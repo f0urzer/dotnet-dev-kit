@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5FED9649-7996-4726-AC0F-EF101A2BD04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fourzer.EntityFrameworkCore.Naming", "fourzer.EntityFrameworkCore.Naming\fourzer.EntityFrameworkCore.Naming.csproj", "{694ED002-1DEC-8BAF-06BB-51FF106C56CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{694ED002-1DEC-8BAF-06BB-51FF106C56CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694ED002-1DEC-8BAF-06BB-51FF106C56CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694ED002-1DEC-8BAF-06BB-51FF106C56CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694ED002-1DEC-8BAF-06BB-51FF106C56CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{694ED002-1DEC-8BAF-06BB-51FF106C56CE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BAE85D7-912A-4586-BB10-E070670F73A6}
+	EndGlobalSection
+EndGlobal
