@@ -31,3 +31,20 @@ You can install via [NuGet.org](https://www.nuget.org/packages/fourzer.EntityFra
 
 ```bash
 dotnet add package fourzer.EntityFrameworkCore.Naming
+```
+## 🚀 Usage
+
+In your DbContext, apply the extension method in OnModelCreating:
+```bash
+using Microsoft.EntityFrameworkCore;
+using fourzer.EntityFrameworkCore.Naming;
+
+public class AppDbContext : DbContext
+{
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.UseSnakeCase(); // Converts everything to snake_case
+    }
+}
+
+```
